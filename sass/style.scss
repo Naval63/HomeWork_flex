@@ -18,3 +18,26 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+    max-width: 1240px;
+    min-height: 100vh;
+    margin: 0 auto;
+    font-size: 2rem;
+    font-family: $default-font;
+    background-color: $main-color;
+    border: solid $dark 3px;
+}
+
+.logo {
+    flex-basis: 200px;
+    
+    &__image {
+        display: block;
+        width: 100%;
+    }
+}
