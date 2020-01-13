@@ -140,3 +140,23 @@ html {
     font-size: 4.4rem;
     letter-spacing: 2px;
     background-color: rgba(0, 0, 0, 0.2); }
+  .main-articles .article {
+    flex-basis: 50%; }
+
+.footer {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row; }
+  .footer__copyright {
+    flex-grow: 1;
+    margin: 16px; }
+  .footer__contact {
+    flex-basis: 50%;
+    margin: 16px; }
+  .footer .icon-btn {
+    padding: 0 16px;
+    border: solid 2px #171717;
+    cursor: pointer;
+    transition: 0.4s; }
+    .footer .icon-btn:hover {
+      transform: scale(1.2); }
