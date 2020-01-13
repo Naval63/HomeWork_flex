@@ -1,5 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,700&display=swap&subset=latin-ext');
+
+$dark: #171717;
+$light: #fff;
+$attention: rgb(255, 69, 0);
+$main-color: #2c2141;
+
+$default-font: 'Roboto', sans-serif;
+$special-font: 'Lato', sans-serif;
+
 html {
     box-sizing: border-box;
+    color: $light;
+    background-color: $light;
+    font-size: 10px;
 }
   
 *, *:before, *:after {
