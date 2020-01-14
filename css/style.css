@@ -23,6 +23,11 @@ html {
 
 .logo {
   flex-basis: 200px; }
+  @media (max-width: 799px) {
+    .logo {
+      flex-basis: 100%;
+      align-items: center;
+      justify-content: center; } }
   .logo__image {
     display: block;
     width: 100%; }
@@ -32,6 +37,10 @@ html {
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media (max-width: 799px) {
+    .search {
+      flex-basis: 100%;
+      margin-top: 16px; } }
   .search__input {
     flex-basis: 60%;
     height: 50%;
@@ -62,6 +71,10 @@ html {
   display: flex;
   align-items: center;
   padding: 0 30px 0 50px; }
+  @media (max-width: 799px) {
+    .settings {
+      flex-grow: 1;
+      justify-content: flex-end; } }
   .settings__icon-link {
     margin: 0 10px;
     font-size: 3rem;
@@ -142,6 +155,9 @@ html {
     background-color: rgba(0, 0, 0, 0.2); }
   .main-articles .article {
     flex-basis: 50%; }
+    @media (max-width: 799px) {
+      .main-articles .article {
+        flex-basis: 100%; } }
 
 .footer {
   flex-basis: 100%;
